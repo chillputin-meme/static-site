@@ -1,5 +1,7 @@
 // import React from 'react';
 import './App.css'; // Import your CSS file
+import chillingPutin from './assets/putin-pool.png';
+
 
 const Mission = () => {
     return (
@@ -20,7 +22,7 @@ const Mission = () => {
 
                     <p><strong>Peace, love, and ChillPutin!</strong> 🌍✌️</p>
                 </div>
-                <img src='src/assets/putin-pool.png' />
+                <img src={chillingPutin} alt="Chilling Putin in Pool"/>
             </div>
         </div>
     );
